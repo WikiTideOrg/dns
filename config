@@ -1,0 +1,66 @@
+options => {
+	listen = any
+	zones_strict_data = true,
+        tcp_threads = 2,
+	state_dir = /etc/gdnsd/,
+	acme_challenge_dns_ttl = 300,
+}
+
+service_types => {
+	cpweb => {
+		plugin => http_status,
+		port => 80,
+		ok_codes => [ 200 ],
+		url_path => /check
+		vhost => health.wikiforge.net
+		up_thresh => 3,
+		ok_thresh => 3,
+		down_thresh => 3,
+		interval => 7,
+		timeout => 5,
+	}
+}
+
+plugins => {
+	geoip => {
+		maps => {
+			generic-map => {
+				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
+				datacenters => [gb, us]
+				map => {
+					AF => [gb, us],
+					AS => {
+						default => [gb, us],
+						CN => [us, gb],
+						JP => [us, gb],
+						KP => [us, gb],
+						KR => [us, gb],
+					},
+					EU => [gb, us],
+					NA => [us, gb],
+					OC => [gb, us],
+					SA => [us, gb],
+					default => [gb, us],
+				},
+			},
+		},
+		resources => {
+			cp => {
+				map => generic-map
+				service_types => cpweb
+				dcmap => {
+					gb => {
+						addrs_v4 => {
+							cp1 => 77.68.52.122
+						}
+					}
+					us => {
+						addrs_v4 => {
+							cp2 => 198.251.65.198
+						}
+					}
+				}
+			}
+		}
+	}
+}
