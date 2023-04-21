@@ -29,6 +29,12 @@ mail		MX	10	feedback-smtp.us-east-1.amazonses.com.
 ;; SPF
 mail.wikiforge.net.		TXT	"v=spf1 include:amazonses.com ~all"
 
+
+; CAA (issue: amazon.com, letsencrypt.com, iodef: mailto:sre@wikiforge.net)
+@		TYPE257	\# 17 00056973737565616D617A6F6E2E636F6D
+@		TYPE257	\# 22 000569737375656C657473656E63727970742E6F7267
+@		TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
+
 ; Miscellaneous
 wikiforge.net.   TXT     "google-site-verification=k6Gdzh1t9cXCeOof_Ka1EYBv6yP6IDKpg3zLRdSJpQA"
 
