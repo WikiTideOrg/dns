@@ -27,12 +27,16 @@ mail		MX	10	feedback-smtp.us-east-1.amazonses.com.
 
 ; Mail policies
 ;; SPF
+wikiforge.net.		TXT	"v=spf1 include:amazonses.com ~all"
 mail.wikiforge.net.	TXT	"v=spf1 include:amazonses.com ~all"
 
 ;; DKIM - Policy: Mail may be signed. Not required.
-srvo7jzhhp6m2pu3tatvmmmckncz2qsj._domainkey.wikiforge.net	CNAME	srvo7jzhhp6m2pu3tatvmmmckncz2qsj.dkim.amazonses.com
-dovmnhr7cjkanr3fgvv23amqadok5d6s._domainkey.wikiforge.net	CNAME	dovmnhr7cjkanr3fgvv23amqadok5d6s.dkim.amazonses.com
-v4lipgssz7hm7lwxsixhbm7nps7xatox._domainkey.wikiforge.net	CNAME	v4lipgssz7hm7lwxsixhbm7nps7xatox.dkim.amazonses.com
+srvo7jzhhp6m2pu3tatvmmmckncz2qsj._domainkey	CNAME	srvo7jzhhp6m2pu3tatvmmmckncz2qsj.dkim.amazonses.com
+dovmnhr7cjkanr3fgvv23amqadok5d6s._domainkey	CNAME	dovmnhr7cjkanr3fgvv23amqadok5d6s.dkim.amazonses.com
+v4lipgssz7hm7lwxsixhbm7nps7xatox._domainkey	CNAME	v4lipgssz7hm7lwxsixhbm7nps7xatox.dkim.amazonses.com
+
+;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
+_dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
 
 ; CAA (issue: amazon.com, letsencrypt.com, iodef: mailto:sre@wikiforge.net)
 @		TYPE257	\# 17 00056973737565616D617A6F6E2E636F6D
@@ -40,7 +44,9 @@ v4lipgssz7hm7lwxsixhbm7nps7xatox._domainkey.wikiforge.net	CNAME	v4lipgssz7hm7lwx
 @		TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
 
 ; Miscellaneous
-wikiforge.net.   TXT     "google-site-verification=k6Gdzh1t9cXCeOof_Ka1EYBv6yP6IDKpg3zLRdSJpQA"
+wikiforge.net. TXT       "google-site-verification=k6Gdzh1t9cXCeOof_Ka1EYBv6yP6IDKpg3zLRdSJpQA"
+_amazonses     TXT       "JSxsidUebHNWB338W4aK9xb6ElPaLh9WtSNeV2tcqv8="
+autodiscover   CNAME     autodiscover.mail.us-west-2.awsapps.com.
 
 ; acme challenges
 
