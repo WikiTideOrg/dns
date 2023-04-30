@@ -23,7 +23,7 @@ ns2		A	162.222.205.220
 
 ; Mail exchanges
 @		MX	10	inbound-smtp.us-west-2.amazonaws.com.
-mail		MX	10	feedback-smtp.us-east-1.amazonses.com.
+mail		MX	10	feedback-smtp.us-west-2.amazonses.com.
 
 ; Mail policies
 ;; SPF
