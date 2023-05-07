@@ -23,12 +23,14 @@ ns2		A	162.222.205.220
 
 ; Mail exchanges
 @		MX	10	inbound-smtp.us-west-2.amazonaws.com.
-mail		MX	10	feedback-smtp.us-east-1.amazonses.com.
+mail		MX	10	feedback-smtp.us-west-2.amazonses.com.
+mail1		MX	10	feedback-smtp.us-east-1.amazonses.com.
 
 ; Mail policies
 ;; SPF
 wikiforge.net.		TXT	"v=spf1 include:amazonses.com ~all"
 mail.wikiforge.net.	TXT	"v=spf1 include:amazonses.com ~all"
+mail1.wikiforge.net.	TXT	"v=spf1 include:amazonses.com ~all"
 
 ;; DKIM - Policy: Mail may be signed. Not required.
 6eqawp2jrcic3fwblge7n2thyuoereqb._domainkey	CNAME	6eqawp2jrcic3fwblge7n2thyuoereqb.dkim.amazonses.com.
