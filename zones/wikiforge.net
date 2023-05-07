@@ -51,6 +51,7 @@ _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
 ; Miscellaneous
 wikiforge.net. TXT       "google-site-verification=k6Gdzh1t9cXCeOof_Ka1EYBv6yP6IDKpg3zLRdSJpQA"
 _amazonses     TXT       "JSxsidUebHNWB338W4aK9xb6ElPaLh9WtSNeV2tcqv8="
+_amazonses     TXT       "ocZRa6BRqMgbzFcPJRm1V379hlxAAw13TGt1XpTlS3U="
 autodiscover   CNAME     autodiscover.mail.us-west-2.awsapps.com.
 
 ; acme challenges
