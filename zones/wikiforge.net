@@ -23,19 +23,22 @@ ns2		A	162.222.205.220
 
 ; Mail exchanges
 @		MX	10	inbound-smtp.us-west-2.amazonaws.com.
-mail		MX	10	feedback-smtp.us-west-2.amazonses.com.
-mail1		MX	10	feedback-smtp.us-east-1.amazonses.com.
+mail1		MX	10	feedback-smtp.us-west-2.amazonses.com.
+mail2		MX	10	feedback-smtp.us-east-1.amazonses.com.
 
 ; Mail policies
 ;; SPF
 wikiforge.net.		TXT	"v=spf1 include:amazonses.com ~all"
-mail.wikiforge.net.	TXT	"v=spf1 include:amazonses.com ~all"
 mail1.wikiforge.net.	TXT	"v=spf1 include:amazonses.com ~all"
+mail2.wikiforge.net.	TXT	"v=spf1 include:amazonses.com ~all"
 
 ;; DKIM - Policy: Mail may be signed. Not required.
-6eqawp2jrcic3fwblge7n2thyuoereqb._domainkey	CNAME	6eqawp2jrcic3fwblge7n2thyuoereqb.dkim.amazonses.com.
-p6anbvtrt6ajhdhjnzxazwd7l5n7wmjw._domainkey	CNAME	p6anbvtrt6ajhdhjnzxazwd7l5n7wmjw.dkim.amazonses.com.
-rrsq3w7mxigx5h666nueur4qc2zszrm3._domainkey	CNAME	rrsq3w7mxigx5h666nueur4qc2zszrm3.dkim.amazonses.com.
+6eqawp2jrcic3fwblge7n2thyuoereqb._domainkey.wikiforge.net	CNAME	6eqawp2jrcic3fwblge7n2thyuoereqb.dkim.amazonses.com.
+p6anbvtrt6ajhdhjnzxazwd7l5n7wmjw._domainkey.wikiforge.net	CNAME	p6anbvtrt6ajhdhjnzxazwd7l5n7wmjw.dkim.amazonses.com.
+rrsq3w7mxigx5h666nueur4qc2zszrm3._domainkey.wikiforge.net	CNAME	rrsq3w7mxigx5h666nueur4qc2zszrm3.dkim.amazonses.com.
+srvo7jzhhp6m2pu3tatvmmmckncz2qsj._domainkey.wikiforge.net	CNAME	srvo7jzhhp6m2pu3tatvmmmckncz2qsj.dkim.amazonses.com.
+dovmnhr7cjkanr3fgvv23amqadok5d6s._domainkey.wikiforge.net	CNAME	dovmnhr7cjkanr3fgvv23amqadok5d6s.dkim.amazonses.com.
+v4lipgssz7hm7lwxsixhbm7nps7xatox._domainkey.wikiforge.net	CNAME	v4lipgssz7hm7lwxsixhbm7nps7xatox.dkim.amazonses.com.
 
 ;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
 _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
