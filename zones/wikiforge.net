@@ -37,10 +37,6 @@ mail1.wikiforge.net.	TXT	"v=spf1 include:amazonses.com ~all"
 p6anbvtrt6ajhdhjnzxazwd7l5n7wmjw._domainkey	CNAME	p6anbvtrt6ajhdhjnzxazwd7l5n7wmjw.dkim.amazonses.com.
 rrsq3w7mxigx5h666nueur4qc2zszrm3._domainkey	CNAME	rrsq3w7mxigx5h666nueur4qc2zszrm3.dkim.amazonses.com.
 
-srvo7jzhhp6m2pu3tatvmmmckncz2qsj._domainkey	CNAME	srvo7jzhhp6m2pu3tatvmmmckncz2qsj.dkim.amazonses.com.
-dovmnhr7cjkanr3fgvv23amqadok5d6s._domainkey	CNAME	dovmnhr7cjkanr3fgvv23amqadok5d6s.dkim.amazonses.com.
-v4lipgssz7hm7lwxsixhbm7nps7xatox._domainkey	CNAME	v4lipgssz7hm7lwxsixhbm7nps7xatox.dkim.amazonses.com.
-
 ;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
 _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
 
