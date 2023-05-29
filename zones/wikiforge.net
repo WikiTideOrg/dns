@@ -52,6 +52,7 @@ _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
 wikiforge.net. TXT       "google-site-verification=k6Gdzh1t9cXCeOof_Ka1EYBv6yP6IDKpg3zLRdSJpQA"
 _amazonses     TXT       "JSxsidUebHNWB338W4aK9xb6ElPaLh9WtSNeV2tcqv8="
 autodiscover   CNAME     autodiscover.mail.us-west-2.awsapps.com.
+static         CNAME	 static.wikiforge.net.s3.amazonaws.com.
 
 ; acme challenges
 
@@ -72,7 +73,6 @@ test1		A	52.14.195.40
 ; Services
 m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
-static		DYNA	geoip!cp
 support		DYNA	geoip!cp
 blog		CNAME	support
 phorge-storage	CNAME	support
