@@ -69,6 +69,7 @@ mw2		A	18.224.51.21
 mwtask1		A	23.142.24.76
 phorge1		A	18.118.200.251
 puppet1		A	18.117.56.175
+services1	A	74.208.104.183
 test1		A	52.14.195.40
 
 ; Services
