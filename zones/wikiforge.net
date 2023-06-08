@@ -81,6 +81,6 @@ phorge-storage	CNAME	support
 
 ; Load Balancer
 mw-lb		DYNA	geoip!cp
-restbase-lb	DYNC	weighted!services
+; restbase-lb	DYNC	weighted!services
 
 ; Other
