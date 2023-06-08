@@ -22,13 +22,6 @@ service_types => {
 }
 
 plugins => {
-	weighted => {
-		multi = false
-		service_types = up
-		services => {
-			services1 = [ services1.wikiforge.net., 1 ]
-		}
-	}
 	geoip => {
 		maps => {
 			generic-map => {
