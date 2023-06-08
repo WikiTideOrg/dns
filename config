@@ -27,6 +27,7 @@ plugins => {
 		service_types = up
 		services => {
 			services1 = [ services1.wikiforge.net., 1 ]
+			services2 = [ services1.wikiforge.net., 1 ]
 		}
 	}
 	geoip => {
