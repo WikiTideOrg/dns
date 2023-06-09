@@ -11,6 +11,7 @@ $ORIGIN wikitide.com.
 
 ; Wildcard services
 @		DYNA	geoip!cp
+*		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.wikiforge.net.
