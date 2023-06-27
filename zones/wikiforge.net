@@ -85,6 +85,7 @@ m		DYNA	geoip!cp
 support		DYNA	geoip!cp
 blog		CNAME	support
 phorge-storage	CNAME	support
+restbase	CNAME	services1
 
 ; Load Balancer
 mw-lb		DYNA	geoip!cp
