@@ -88,6 +88,7 @@ restbase	CNAME	services1
 
 ; Load Balancer
 mw-lb		DYNA	geoip!cp
-; restbase-lb	DYNC	weighted!services
+; restbase-lb	DYNA	weighted!services
+thumb-lb	DYNA	weighted!thumb
 
 ; Other
