@@ -52,6 +52,8 @@ _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
 wikiforge.net. TXT       "google-site-verification=k6Gdzh1t9cXCeOof_Ka1EYBv6yP6IDKpg3zLRdSJpQA"
 _amazonses     TXT       "JSxsidUebHNWB338W4aK9xb6ElPaLh9WtSNeV2tcqv8="
 _github-challenge-WikiForge-org TXT "a4a5c2919d"
+_acme-challenge.wikiforge.net.	TXT     "Yn3SAfw28kv_ImINiTUaxYB1qw6_rR4cLxH3usdLvgY"
+_acme-challenge.wikiforge.net.	TXT     "rJsuNbR_5eXuCK2EsMlZdnM-DI8lKxuy3NBajzEHRPY"
 autodiscover   CNAME     autodiscover.mail.us-west-2.awsapps.com.
 static         CNAME	 d4r2s76oi94pj.cloudfront.net.
 
