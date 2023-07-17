@@ -83,6 +83,7 @@ test1		A	52.14.195.40
 ; private, internal AWS network
 db1-private		A	172.31.17.161
 jobchron1-private	A	172.31.5.111
+jobrunner1-private	A	172.31.12.79
 puppet1-private		A	172.31.6.144
 
 ; Services
