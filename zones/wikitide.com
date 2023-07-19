@@ -30,6 +30,7 @@ $ORIGIN wikitide.com.
 ; load balancers
 
 ; Miscellaneous
+status		CNAME	wikitide.hund.io.
 
 wikitide.com. 						TXT	"google-site-verification=mZqFWivIMI2uVbrLnmGJ96EHQeNjdypjcgWsoK1OgeQ"
 _acme-challenge.wikitide.com.				TXT     "4fy8rTtTyh6OhF3ipd77YiIOEIouPGEuU0Wpi1WAVTM"
