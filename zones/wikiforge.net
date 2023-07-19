@@ -56,6 +56,7 @@ _acme-challenge.wikiforge.net.	TXT     "Yn3SAfw28kv_ImINiTUaxYB1qw6_rR4cLxH3usdL
 _acme-challenge.wikiforge.net.	TXT     "rJsuNbR_5eXuCK2EsMlZdnM-DI8lKxuy3NBajzEHRPY"
 autodiscover   CNAME     autodiscover.mail.us-west-2.awsapps.com.
 static         CNAME	 d4r2s76oi94pj.cloudfront.net.
+status         CNAME	 wikiforge.hund.io.
 
 ; acme challenges
 
