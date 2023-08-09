@@ -27,7 +27,7 @@ $ORIGIN rosettacode.org.
 rosettacode.org.   TXT     "google-site-verification=6gfMOTA-aG9DRWK-Xr2PdBZnSTb3ogDYVW200hAlTqY"
 
 ; Services
-www	CNAME	mw-lb.miraheze.org
+www	CNAME	mw-lb.miraheze.org.
 mail	CNAME	mail.rosettacode.org.cust.b.hostedemail.com.
 
 ; load balancers
