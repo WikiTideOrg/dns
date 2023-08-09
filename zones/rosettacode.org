@@ -10,7 +10,7 @@ $ORIGIN rosettacode.org.
 )
 
 ; Wildcard services
-@		CNAME	mw-lb.miraheze.org
+@		A	108.175.15.182
 
 ; Name servers
 @		NS	ns1.wikiforge.net.
