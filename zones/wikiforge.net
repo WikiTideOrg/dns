@@ -64,7 +64,6 @@ status         CNAME	 wikiforge.hund.io.
 ; Servers
 cp1		A	77.68.52.122
 cp2		A	79.99.42.171
-cp3		A	198.251.65.198
 cp4		A	74.208.107.89
 db1		A	3.134.243.68
 jobchron1	A	18.221.91.74
@@ -73,6 +72,7 @@ jobrunner2	A	3.15.17.20
 mem1		A	3.131.151.91
 mw1		A	18.191.12.113
 mw2		A	18.222.166.40
+mw3		A	198.251.65.198
 phorge1		A	18.118.200.251
 puppet1		A	18.117.56.175
 services1	A	74.208.104.183
