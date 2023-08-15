@@ -30,4 +30,4 @@ www		    DYNA	geoip!cp
 ; load balancers
 
 ; Other
-_atproto	    TXT		"did=did:plc:vberkt3qnvpdwzsbhsvjhghs"
+_atproto.thedemon08 TXT		"did=did:plc:vberkt3qnvpdwzsbhsvjhghs"
