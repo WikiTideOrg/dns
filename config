@@ -30,7 +30,6 @@ plugins => {
 			addrs_v4 => {
 				jobrunner1 = [ 13.58.205.57, 1 ]
 				jobrunner2 = [ 3.15.17.20, 1 ]
-				test1 = [ 52.14.195.40, 1 ]
 			}
 		}
 		services => {
