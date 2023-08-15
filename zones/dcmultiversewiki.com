@@ -26,8 +26,8 @@ $ORIGIN dcmultiversewiki.com.
 
 ; Services
 www		    DYNA	geoip!cp
-_atproto.thedemon08.dcmultiversewiki.com. TXT "did=did:plc:vberkt3qnvpdwzsbhsvjhghs"
 
 ; load balancers
 
 ; Other
+_atproto	    TXT		"did=did:plc:vberkt3qnvpdwzsbhsvjhghs"
