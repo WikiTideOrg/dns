@@ -10,7 +10,7 @@ $ORIGIN rosettacode.org.
 )
 
 ; Wildcard services
-@		A	108.175.15.182
+@		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.wikiforge.net.
@@ -27,7 +27,7 @@ $ORIGIN rosettacode.org.
 rosettacode.org.   TXT     "google-site-verification=6gfMOTA-aG9DRWK-Xr2PdBZnSTb3ogDYVW200hAlTqY"
 
 ; Services
-www	CNAME	mw-lb.miraheze.org.
+www	DYNA	geoip!cp
 mail	CNAME	mail.rosettacode.org.cust.b.hostedemail.com.
 
 ; load balancers
