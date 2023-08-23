@@ -55,7 +55,7 @@ _github-challenge-WikiForge-org TXT "a4a5c2919d"
 _github-pages-challenge-WikiForge.static-help TXT "8e48825d78761ee4ec3fdcb0f5d859"
 _acme-challenge.wikiforge.net.	TXT     "Yn3SAfw28kv_ImINiTUaxYB1qw6_rR4cLxH3usdLvgY"
 _acme-challenge.wikiforge.net.	TXT     "rJsuNbR_5eXuCK2EsMlZdnM-DI8lKxuy3NBajzEHRPY"
-_41cc0d23a047b8c8da6aba35efd17be4.phorge-storage	CNAME	_c41a9cb3589b222c22d54aa7705a068d.vvykbvdtpk.acm-validations.aws.
+_41cc0d23a047b8c8da6aba35efd17be4.phorge-storage.wikiforge.net.	CNAME	_c41a9cb3589b222c22d54aa7705a068d.vvykbvdtpk.acm-validations.aws.
 autodiscover   CNAME     autodiscover.mail.us-west-2.awsapps.com.
 phorge-storage	CNAME	dmtev1hplsn3h.cloudfront.net.
 static         CNAME	 d4r2s76oi94pj.cloudfront.net.
