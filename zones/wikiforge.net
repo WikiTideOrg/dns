@@ -56,6 +56,7 @@ _github-pages-challenge-WikiForge.static-help TXT "8e48825d78761ee4ec3fdcb0f5d85
 _acme-challenge.wikiforge.net.	TXT     "Yn3SAfw28kv_ImINiTUaxYB1qw6_rR4cLxH3usdLvgY"
 _acme-challenge.wikiforge.net.	TXT     "rJsuNbR_5eXuCK2EsMlZdnM-DI8lKxuy3NBajzEHRPY"
 autodiscover   CNAME     autodiscover.mail.us-west-2.awsapps.com.
+phorge-storage	CNAME	d4r2s76oi94pj.cloudfront.net.
 static         CNAME	 d4r2s76oi94pj.cloudfront.net.
 status         CNAME	 wikiforge.hund.io.
 static-help    CNAME	 wikiforge.github.io.
@@ -90,7 +91,6 @@ m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
 support		DYNA	geoip!cp
 blog		CNAME	support
-phorge-storage	CNAME	support
 restbase	CNAME	services1
 
 ; Load Balancer
