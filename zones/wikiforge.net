@@ -92,6 +92,7 @@ m		DYNA	geoip!cp
 *.m		DYNA	geoip!cp
 support		DYNA	geoip!cp
 blog		CNAME	support
+phorge-static	CNAME	support
 restbase	CNAME	services1
 
 ; Load Balancer
