@@ -68,6 +68,7 @@ static-help    CNAME	 wikiforge.github.io.
 cp1		A	77.68.52.122
 cp2		A	79.99.42.171
 cp3		A	74.208.107.89
+cp4		A	74.208.107.89
 db1		A	3.134.243.68
 jobchron1	A	18.221.91.74
 jobrunner1	A	13.58.205.57
