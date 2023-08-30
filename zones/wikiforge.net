@@ -97,6 +97,7 @@ m		DYNA	geoip!cp
 support		DYNA	geoip!cp
 blog		CNAME	support
 ldap		CNAME	misc1
+mail		CNAME	misc1
 phorge-static	CNAME	support
 restbase	CNAME	services1
 
