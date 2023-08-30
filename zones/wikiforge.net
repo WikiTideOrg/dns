@@ -89,6 +89,9 @@ puppet1		A	18.117.56.175
 services1	A	74.208.104.183
 test1		A	52.14.195.40
 
+; Mail
+mail		A	3.133.225.104
+
 ; private, internal AWS network
 db1-private		A	172.31.17.161
 jobchron1-private	A	172.31.5.111
@@ -101,7 +104,6 @@ m		DYNA	geoip!cp
 support		DYNA	geoip!cp
 blog		CNAME	support
 ldap		CNAME	misc1
-mail		CNAME	misc1
 phorge-static	CNAME	support
 restbase	CNAME	services1
 
