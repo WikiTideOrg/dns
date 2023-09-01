@@ -37,6 +37,9 @@ mail._domainkey	TXT	"v=DKIM1; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6a1Q
 ;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
 _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
 
+; BIMI - Used for verified emails
+default._bimi	TXT	"v=BIMI1;l=https://static.wikiforge.net/commonswikitide/e/ea/WikiTide_BIMI.svg;a="
+
 ; Servers
 
 ; Services
