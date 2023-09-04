@@ -28,8 +28,8 @@ plugins => {
 		up_thresh = 0.5
 		thumb => {
 			addrs_v4 => {
-				jobrunner1 = [ 13.58.205.57, 1 ]
-				jobrunner2 = [ 3.15.17.20, 1 ]
+				mw3 = [ 198.251.65.198, 1 ]
+				mw5 = [ 23.142.24.117, 1 ]
 			}
 		}
 		services => {
