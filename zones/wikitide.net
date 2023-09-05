@@ -1,0 +1,45 @@
+  $TTL 300
+$ORIGIN wikitide.net.
+
+@		SOA ns1.wikiforge.net. hostmaster.wikiforge.net. (
+		20230905000002	; serial
+		7200	; refresh
+		30M		; retry
+		3D		; expire
+		900		; ncache
+)
+
+; Wildcard services
+@		DYNA	geoip!cp
+*		DYNA	geoip!cp
+
+; Name servers
+@		NS	ns1.wikiforge.net.
+@		NS	ns2.wikiforge.net.
+
+; CAA (issue: letsencrypt.com, iodef: mailto:sre@wikiforge.net)
+@		TYPE257	\# 22 000569737375656C657473656E63727970742E6F7267
+@		TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
+
+; Mail exchanges
+
+; Mail policies
+
+; Mail autodiscovery
+
+;; DKIM - Policy: Mail may be signed. Not required.
+
+;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
+
+; BIMI - Used for verified emails
+
+; Servers
+
+; Services
+
+; load balancers
+
+; Miscellaneous
+status		CNAME	wikitide.hund.io.
+
+; Other
