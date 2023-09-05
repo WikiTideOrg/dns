@@ -1,4 +1,4 @@
-  $TTL 300
+$TTL 300
 $ORIGIN wikitide.net.
 
 @		SOA ns1.wikiforge.net. hostmaster.wikiforge.net. (
