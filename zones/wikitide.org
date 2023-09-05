@@ -52,6 +52,7 @@ status		CNAME	wikitide.hund.io.
 
 wikitide.org. 						TXT	"google-site-verification=mZqFWivIMI2uVbrLnmGJ96EHQeNjdypjcgWsoK1OgeQ"
 _acme-challenge.wikitide.org.				TXT     "L_oVz8AHgy9c_IeG-xt1m7eS4tWxZ5resQak_AGH0_Q"
+_acme-challenge.wikitide.org.				TXT     "0aB7Mx8CPiY4j87ys8dSWHuVt8wZAILUs-ISBwnNUOg"
 _4892a2a9ab88b98b856acaa9af5215ae.static.wikitide.org.	CNAME	 _201b0baed920ec5e85ea9d4c9d96bd65.ycvykntjsl.acm-validations.aws.
 
 ; Other
