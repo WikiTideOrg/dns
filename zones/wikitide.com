@@ -51,8 +51,7 @@ mail		A	3.133.225.104
 status		CNAME	wikitide.hund.io.
 
 wikitide.com. 						TXT	"google-site-verification=mZqFWivIMI2uVbrLnmGJ96EHQeNjdypjcgWsoK1OgeQ"
-_acme-challenge.wikitide.com.				TXT     "4fy8rTtTyh6OhF3ipd77YiIOEIouPGEuU0Wpi1WAVTM"
-_acme-challenge.wikitide.com.				TXT     "r_r6x3c0rtxPwmAynj9apeJCcmXcN1GcE-7VWsczCNc"
+_acme-challenge.wikitide.com.				TXT     "6UARBMDdFIJVbefXAZHm-gYzkFl76QNJhBkeRCbdMhI"
 _4892a2a9ab88b98b856acaa9af5215ae.static.wikitide.com.	CNAME	 _201b0baed920ec5e85ea9d4c9d96bd65.ycvykntjsl.acm-validations.aws.
 
 ; Other
