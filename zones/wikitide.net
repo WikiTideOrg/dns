@@ -41,7 +41,7 @@ $ORIGIN wikitide.net.
 
 ; Miscellaneous
 status		CNAME	wikitide.hund.io.
-_acme-challenge.wikitide.net.				TXT     "uM3Y5u_phqKvPH41pBgbYSgofV-yEitl2MAdr7-itpE"
-_acme-challenge.wikitide.net.				TXT     "xAvZrxFJTJQQkxSPO339wqxiLodW6IlU98Fxw8YNAcQ"
+_acme-challenge.wikitide.net.				TXT     "pijWww3bz5EUqY-EImmVEmaruwOdQ8jRBAVaH4lkVlc"
+_acme-challenge.wikitide.net.				TXT     "L1hebhsUC4XUZpb5mBkrRAx-4vHZvepSY2RPWKLs9ho"
 
 ; Other
