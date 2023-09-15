@@ -25,7 +25,8 @@ $ORIGIN perilous-times.com.
 ; Servers
 
 ; Services
-www		    DYNA	geoip!cp
+www		    CNAME	cf-lb.wikiforge.net.
+_acme-challenge.www.perilous-times.com.	CNAME	www.perilous-times.com.9b9c355351fcc995.dcv.cloudflare.com.
 
 ; load balancers
 
