@@ -26,8 +26,7 @@ $ORIGIN dcmultiversewiki.com.
 
 ; Services
 www		    CNAME	cf-lb.wikiforge.net.
-_acme-challenge.www.dcmultiversewiki.com.	TXT	"81I8_y-QYwC_DyNK2wgdfIT4UKioJExJ3v-myTKfgpU"
-; _acme-challenge.www.dcmultiversewiki.com.	CNAME	www.dcmultiversewiki.com.1d988f2430a9f43d.dcv.cloudflare.com.
+_acme-challenge	CNAME	www.dcmultiversewiki.com.1d988f2430a9f43d.dcv.cloudflare.com.
 
 
 ; load balancers
