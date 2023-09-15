@@ -26,7 +26,7 @@ $ORIGIN rosettacode.org.
 ; Miscellaneous
 rosettacode.org.   TXT     "google-site-verification=6gfMOTA-aG9DRWK-Xr2PdBZnSTb3ogDYVW200hAlTqY"
 _acme-challenge.rosettacode.org.   TXT     "3YQg56LBneXY4iydVcp60M5WV_-9FrIl5eb6DDCbdBA"
-_cf-custom-hostname.rosettacode.org. "d1c48897-4fbc-432a-98e3-a9d772f69357"
+_cf-custom-hostname.rosettacode.org.	TXT	"d1c48897-4fbc-432a-98e3-a9d772f69357"
 
 ; Services
 www	CNAME	cf-lb.wikiforge.net.
