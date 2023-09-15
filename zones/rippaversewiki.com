@@ -26,6 +26,7 @@ $ORIGIN rippaversewiki.com.
 
 ; Services
 www		    CNAME	cf-lb.wikiforge.net.
+_acme-challenge.www.rippaversewiki.com.	CNAME	www.rippaverse.com.9b9c355351fcc995.dcv.cloudflare.com.
 
 ; load balancers
 
