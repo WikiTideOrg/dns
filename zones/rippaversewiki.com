@@ -25,7 +25,7 @@ $ORIGIN rippaversewiki.com.
 ; Servers
 
 ; Services
-www		    DYNA	geoip!cp
+www		    CNAME	cf-lb.wikiforge.net
 
 ; load balancers
 
