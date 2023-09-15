@@ -25,7 +25,7 @@ $ORIGIN rippaversewiki.com.
 ; Servers
 
 ; Services
-www		    CNAME	cf-lb.wikiforge.net
+www		    CNAME	cf-lb.wikiforge.net.
 
 ; load balancers
 
