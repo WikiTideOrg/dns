@@ -25,7 +25,8 @@ $ORIGIN mwcosmos.com.
 ; Servers
 
 ; Services
-www		    DYNA	geoip!cp
+www		    CNAME	cf-lb.wikiforge.net.
+_acme-challenge.www.mwcosmos.com.	CNAME	www.mwcosmos.com.9b9c355351fcc995.dcv.cloudflare.com.
 discord-chatlogs    CNAME       universal-omega.github.io.
 
 ; load balancers
