@@ -27,7 +27,7 @@ $ORIGIN distrowiki.net.
 ; Servers
 
 ; Services
-www		    CNAME	cf-lb.wikiforge.net.
+www		    CNAME	cf-lb.wikitide.org.
 _acme-challenge.www.distrowiki.net.	CNAME	www.distrowiki.net.9b9c355351fcc995.dcv.cloudflare.com.
 
 ; load balancers
