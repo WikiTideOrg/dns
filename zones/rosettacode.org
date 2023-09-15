@@ -10,7 +10,7 @@ $ORIGIN rosettacode.org.
 )
 
 ; Wildcard services
-@		CNAME	wikiforge.net
+@		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.wikiforge.net.
@@ -29,7 +29,7 @@ _acme-challenge.rosettacode.org.   TXT     "3YQg56LBneXY4iydVcp60M5WV_-9FrIl5eb6
 _cf-custom-hostname.rosettacode.org. "d1c48897-4fbc-432a-98e3-a9d772f69357"
 
 ; Services
-www	DYNA	geoip!cp
+www	CNAME	cf-lb.wikiforge.net
 mail	CNAME	mail.rosettacode.org.cust.b.hostedemail.com.
 
 ; load balancers
