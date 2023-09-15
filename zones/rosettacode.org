@@ -25,7 +25,7 @@ $ORIGIN rosettacode.org.
 
 ; Miscellaneous
 rosettacode.org.   TXT     "google-site-verification=6gfMOTA-aG9DRWK-Xr2PdBZnSTb3ogDYVW200hAlTqY"
-_acme-challenge.www.rosettacode.org.   TXT     "6J16YKO2Akmiu0aRM-COacYESLeYBl0j-irhIRZ573o"
+_acme-challenge.www.rosettacode.org.   TXT     "XL_cQ4YBgTwTbOC0mhfYedLyGQghyt5rUkMLOU9HvMc"
 _cf-custom-hostname.www.rosettacode.org.	TXT	"881ebb2e-7dd1-4ea5-bafb-16d2df72951a"
 
 ; Services
