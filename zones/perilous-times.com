@@ -10,7 +10,7 @@ $ORIGIN perilous-times.com.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp
+@		A	104.21.36.88
 
 ; Name servers
 @		NS	ns1.wikiforge.net.
@@ -25,7 +25,7 @@ $ORIGIN perilous-times.com.
 ; Servers
 
 ; Services
-www		    CNAME	cf-lb.wikiforge.net.
+www		    A	104.21.36.88.
 _acme-challenge.perilous-times.com.	CNAME	perilous-times.com.1d988f2430a9f43d.dcv.cloudflare.com.
 _cf-custom-hostname.perilous-times.com	TXT	"21eecdb4-05f5-4ac6-a2a7-fbc79adb70d4"
 ; load balancers
