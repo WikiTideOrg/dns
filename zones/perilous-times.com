@@ -27,7 +27,7 @@ $ORIGIN perilous-times.com.
 ; Services
 www		    CNAME	cf-lb.wikiforge.net.
 _acme-challenge.perilous-times.com.	CNAME	perilous-times.com.1d988f2430a9f43d.dcv.cloudflare.com.
-
+_cf-custom-hostname.perilous-times.com	TXT	"21eecdb4-05f5-4ac6-a2a7-fbc79adb70d4"
 ; load balancers
 
 ; Other
