@@ -6,38 +6,6 @@ options => {
 	acme_challenge_dns_ttl = 300,
 }
 
-service_types => {
-	cpweb => {
-		plugin => http_status,
-		port => 80,
-		ok_codes => [ 200 ],
-		url_path => /check
-		vhost => health.wikiforge.net
-		up_thresh => 3,
-		ok_thresh => 3,
-		down_thresh => 3,
-		interval => 7,
-		timeout => 5,
-	}
-}
-
-plugins => {
-	weighted => {
-		multi = false
-		service_types = up
-		up_thresh = 0.5
-		thumb => {
-			addrs_v4 => {
-				mw3 = [ 198.251.65.198, 1 ]
-				mw5 = [ 23.142.24.117, 1 ]
-			}
-		}
-		services => {
-			addrs_v4 => {
-				services1 = [ 74.208.104.183, 1 ]
-			}
-		}
-	}
 	geoip => {
 		maps => {
 			generic-map => {
