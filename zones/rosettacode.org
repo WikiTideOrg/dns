@@ -10,7 +10,7 @@ $ORIGIN rosettacode.org.
 )
 
 ; Wildcard services
-@		DYNA	geoip!cp
+; NONE
 
 ; Name servers
 @		NS	ns1.wikiforge.net.
@@ -28,7 +28,8 @@ rosettacode.org.   TXT     "google-site-verification=6gfMOTA-aG9DRWK-Xr2PdBZnSTb
 _acme-challenge.www.rosettacode.org.	CNAME	www.rosettacode.org.9b9c355351fcc995.dcv.cloudflare.com.
 
 ; Services
-www	CNAME	cf-lb.wikitide.org.
+@		A		104.21.95.90
+www		CNAME	cf-lb.wikitide.org.
 mail	CNAME	mail.rosettacode.org.cust.b.hostedemail.com.
 
 ; load balancers
