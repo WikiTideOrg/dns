@@ -1,8 +1,8 @@
 $TTL 300
-$ORIGIN dcmultiversewiki.com.
+$ORIGIN farthestfrontier.wiki.
 
 @		SOA ns1.wikiforge.net. hostmaster.wikiforge.net. (
-		20230421000001	; serial
+		20230710000001	; serial
 		7200		; refresh
 		30M		; retry
 		3D		; expire
@@ -20,16 +20,16 @@ $ORIGIN dcmultiversewiki.com.
 @		TYPE257	\# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
 
+; Miscellaneous
+farthestfrontier.wiki. TXT  "google-site-verification=6Olj5oS891apI0iOWwG5E_jcyUmzh3FTr3Mzl6owXNY"
+
 ; Mail exchangers
 
 ; Servers
 
 ; Services
-www		    CNAME	cf-lb.wikiforge.net.
-_acme-challenge.dcmultiversewiki.com.	CNAME	dcmultiversewiki.com.1d988f2430a9f43d.dcv.cloudflare.com.
-
+www		    DYNA	geoip!cp
 
 ; load balancers
 
 ; Other
-_atproto.thedemon08 TXT		"did=did:plc:vberkt3qnvpdwzsbhsvjhghs"

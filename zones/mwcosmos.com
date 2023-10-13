@@ -10,6 +10,7 @@ $ORIGIN mwcosmos.com.
 )
 
 ; Wildcard services
+@		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.wikiforge.net.

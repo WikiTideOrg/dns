@@ -1,9 +1,9 @@
 $TTL 300
-$ORIGIN dcmultiversewiki.com.
+$ORIGIN wikitide.net.
 
 @		SOA ns1.wikiforge.net. hostmaster.wikiforge.net. (
-		20230421000001	; serial
-		7200		; refresh
+		20230905000002	; serial
+		7200	; refresh
 		30M		; retry
 		3D		; expire
 		900		; ncache
@@ -11,6 +11,7 @@ $ORIGIN dcmultiversewiki.com.
 
 ; Wildcard services
 @		DYNA	geoip!cp
+*		DYNA	geoip!cp
 
 ; Name servers
 @		NS	ns1.wikiforge.net.
@@ -20,16 +21,26 @@ $ORIGIN dcmultiversewiki.com.
 @		TYPE257	\# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
 
-; Mail exchangers
+; Mail exchanges
+
+; Mail policies
+
+; Mail autodiscovery
+
+;; DKIM - Policy: Mail may be signed. Not required.
+
+;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
+
+; BIMI - Used for verified emails
 
 ; Servers
 
 ; Services
-www		    CNAME	cf-lb.wikiforge.net.
-_acme-challenge.dcmultiversewiki.com.	CNAME	dcmultiversewiki.com.1d988f2430a9f43d.dcv.cloudflare.com.
-
 
 ; load balancers
 
+; Miscellaneous
+status		CNAME	wikitide.hund.io.
+_acme-challenge.wikitide.net.				TXT     "CpFa9sSweQCwDI1bA32J1zos4Ep0JoB0A0NbKOiIq_Q"
+
 ; Other
-_atproto.thedemon08 TXT		"did=did:plc:vberkt3qnvpdwzsbhsvjhghs"
