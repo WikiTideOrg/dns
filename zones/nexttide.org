@@ -49,5 +49,5 @@ default._bimi	TXT	"v=BIMI1;l=https://static.wikiforge.net/commonswikitide/e/ea/W
 ; Miscellaneous
 nexttide.org. 						TXT	"google-site-verification=mZqFWivIMI2uVbrLnmGJ96EHQeNjdypjcgWsoK1OgeQ"
 _acme-challenge.nexttide.org.				TXT     "USdZfzXh-OHnuMbkQdXsHduJoz9kpz8RQmUXeDKTutE"
-
+_acme-challenge.nexttide.org.				TXT     "-d8Mjv0d1XhaCIef-I3hIkbtIesmr8og3w3bYArKFlk"
 ; Other
