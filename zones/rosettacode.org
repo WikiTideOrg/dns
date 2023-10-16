@@ -29,7 +29,6 @@ _acme-challenge.www.rosettacode.org.	CNAME	www.rosettacode.org.9b9c355351fcc995.
 _acme-challenge	TXT	"f139jGzPBR623Cmo4yK3a6546hMBivuJeaJ9ftPIX2E"
 
 ; Services
-@		A		208.110.84.238
 www		CNAME	cf-lb.wikitide.org.
 mail	CNAME	mail.rosettacode.org.cust.b.hostedemail.com.
 _cf-custom-hostname	TXT	"8c7936a2-8cfc-486e-9487-2f93272aa5bc"
