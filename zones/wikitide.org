@@ -22,7 +22,7 @@ $ORIGIN wikitide.org.
 @		TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
 
 ; Mail exchanges
-@		MX	10	mail.wikitide.org.
+@		MX	10	mail.wikiforge.net.
 
 ; Mail policies
 wikitide.org.		TXT	"v=spf1 ip4:3.133.225.104 -all"
