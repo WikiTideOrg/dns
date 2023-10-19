@@ -28,12 +28,12 @@ plugins => {
 		up_thresh = 0.5
 		thumb => {
 			addrs_v4 => {
-				cp11 = [ 208.110.84.235, 1 ]
+				cp1 = [ 208.110.84.235, 1 ]
 			}
 		}
 		services => {
 			addrs_v4 => {
-				cp11 = [ 208.110.84.235, 1 ]
+				cp1 = [ 208.110.84.235, 1 ]
 			}
 		}
 	}
@@ -41,21 +41,18 @@ plugins => {
 		maps => {
 			generic-map => {
 				geoip2_db => /usr/share/GeoIP/GeoLite2-Country.mmdb
-				datacenters => [gb, us]
+				datacenters => [au, ca, gb, pl, sg, us]
 				map => {
-					AF => [gb, us],
+					AF => [gb, pl, us, ca, sg, au],
 					AS => {
-						default => [gb, us],
-						CN => [us, gb],
-						JP => [us, gb],
-						KP => [us, gb],
-						KR => [us, gb],
+						default => [sg, au, pl, us, ca, gb],
+						RU => [pl, gb, sg, us, au, ca],
 					},
-					EU => [gb, us],
-					NA => [us, gb],
-					OC => [gb, us],
-					SA => [us, gb],
-					default => [gb, us],
+					EU => [gb, pl, us, ca, sg, au],
+					NA => [us, ca, gb, pl, sg, au],
+					OC => [au, sg, pl, us, ca, gb],
+					SA => [us, ca, au, sg, gb, pl],
+					default => [us, ca, gb, pl, sg, au],
 				},
 			},
 		},
@@ -64,14 +61,34 @@ plugins => {
 				map => generic-map
 				service_types => cpweb
 				dcmap => {
+					au => {
+						addrs_v4 => {
+							cp6 => 139.99.236.151
+						}
+					}
+					ca => {
+						addrs_v4 => {
+							cp2 => 51.79.55.151
+						}
+					}
 					gb => {
 						addrs_v4 => {
-							cp11 => 208.110.84.235
+							cp3 => 51.75.170.66
+						}
+					}
+					pl => {
+						addrs_v4 => {
+							cp4 => 146.59.44.171
+						}
+					}
+					sg => {
+						addrs_v4 => {
+							cp5 => 15.235.167.159
 						}
 					}
 					us => {
 						addrs_v4 => {
-							cp11 => 208.110.84.235
+							cp1 => 208.110.84.235
 						}
 					}
 				}
