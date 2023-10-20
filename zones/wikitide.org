@@ -25,7 +25,7 @@ $ORIGIN wikitide.org.
 @		MX	10	mail.wikiforge.net.
 
 ; Mail policies
-wikitide.org.		TXT	"v=spf1 ip4:3.133.225.104 -all"
+wikitide.org.		TXT	"v=spf1 ip4:208.110.84.237 ip6:2604:4300:a:37::109 -all"
 
 ; Mail autodiscovery
 _imaps._tcp		IN SRV	0 0 143 mail.wikiforge.net.
@@ -43,7 +43,8 @@ default._bimi	TXT	"v=BIMI1;l=https://static.wikiforge.net/commonswikitide/e/ea/W
 ; Servers
 
 ; Services
-mail		A	3.133.225.104
+mail		A	208.110.84.237
+mail		AAAA	2604:4300:a:37::109
 
 ; load balancers
 
