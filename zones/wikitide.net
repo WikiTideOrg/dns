@@ -49,6 +49,7 @@ cp5		AAAA	2402:1f00:8000:800::1b3d
 cp6		AAAA	2402:1f00:8100:400::1d23
 mw13		AAAA	2604:4300:a:37::119
 phorge11	AAAA	2604:4300:a:37::107
+puppet1		A	10.0.0.100
 
 ; Services
 
