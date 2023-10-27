@@ -50,6 +50,24 @@ cp6		AAAA	2402:1f00:8100:400::1d23
 mw13		AAAA	2604:4300:a:37::119
 phorge11	AAAA	2604:4300:a:37::107
 puppet1		A	10.0.0.100
+mw1		A	10.0.0.101
+mw2		A	10.0.0.102
+db1		A	10.0.0.103
+jobrunner1		A	10.0.0.104
+jobchron1		A	10.0.0.105
+mem1		A	10.0.0.106
+test1		A	10.0.0.107
+phorge1		A	10.0.0.108
+ldap1		A	10.0.0.109
+mail1		A	10.0.0.110
+mon1		A	10.0.0.111
+ns1		A	10.0.0.112
+cp1		A	10.0.0.113
+bast1		A	10.0.0.114
+services1		A	10.0.0.115
+os1		A	10.0.0.116
+graylog1		A	10.0.0.117
+prometheus1		A	10.0.0.118
 
 ; Services
 
