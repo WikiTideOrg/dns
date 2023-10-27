@@ -70,6 +70,7 @@ graylog1		A	10.0.0.117
 prometheus1		A	10.0.0.118
 
 ; Services
+bastion		A	63.141.240.3
 
 ; load balancers
 
