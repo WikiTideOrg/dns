@@ -47,11 +47,13 @@ cp3		AAAA	2001:41d0:801:2000::4089
 cp4		AAAA	2001:41d0:601:1100::4062
 cp5		AAAA	2402:1f00:8000:800::1b3d
 cp6		AAAA	2402:1f00:8100:400::1d23
-mw13		AAAA	2604:4300:a:37::119
+mw1		AAAA	2604:4300:a:24::101
+mw2		AAAA	2604:4300:a:24::102
 phorge11	AAAA	2604:4300:a:37::107
-puppet1		A	10.0.0.100
-mw1		A	10.0.0.101
-mw2		A	10.0.0.102
+puppet1		AAAA	2604:4300:a:24::100
+puppet1-private		A	10.0.0.100
+mw1-private		A	10.0.0.101
+mw2-private		A	10.0.0.102
 db1		A	10.0.0.103
 jobrunner1		A	10.0.0.104
 jobchron1		A	10.0.0.105
