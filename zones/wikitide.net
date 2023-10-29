@@ -35,46 +35,48 @@ $ORIGIN wikitide.net.
 
 ; Servers
 cloud1		A	63.141.240.2
-cp1		A	208.110.84.235
+cp1		A	63.141.240.6
 cp2		A	51.79.55.151
 cp3		A	51.75.170.66
 cp4		A	146.59.44.171
 cp5		A	15.235.167.159
 cp6		A	139.99.236.151
-cp1		AAAA	2604:4300:a:37::118
+cp1		AAAA	2604:4300:a:24::113
 cp2		AAAA	2607:5300:205:200::2aa8
 cp3		AAAA	2001:41d0:801:2000::4089
 cp4		AAAA	2001:41d0:601:1100::4062
 cp5		AAAA	2402:1f00:8000:800::1b3d
 cp6		AAAA	2402:1f00:8100:400::1d23
+mail1		AAAA	2604:4300:a:24::110
 mw1		AAAA	2604:4300:a:24::101
 mw2		AAAA	2604:4300:a:24::102
-phorge11	AAAA	2604:4300:a:37::107
+phorge1		AAAA	2604:4300:a:37::107
 puppet1		AAAA	2604:4300:a:24::100
-puppet1-private		A	10.0.0.100
-mw1-private		A	10.0.0.101
-mw2-private		A	10.0.0.102
+puppet1-private	A	10.0.0.100
+mw1-private	A	10.0.0.101
+mw2-private	A	10.0.0.102
 db1		A	10.0.0.103
-jobrunner1		A	10.0.0.104
-jobchron1		A	10.0.0.105
+jobrunner1	A	10.0.0.104
+jobchron1	A	10.0.0.105
 mem1		A	10.0.0.106
 test1		A	10.0.0.107
-phorge1		A	10.0.0.108
+phorge1-private	A	10.0.0.108
 ldap1		A	10.0.0.109
-mail1		A	10.0.0.110
+mail1-private	A	10.0.0.110
 mon1		A	10.0.0.111
 ns1		A	10.0.0.112
-cp1		A	10.0.0.113
+cp1-private	A	10.0.0.113
 bast1		A	10.0.0.114
-services1		A	10.0.0.115
+services1	A	10.0.0.115
 os1		A	10.0.0.116
-graylog1		A	10.0.0.117
-prometheus1		A	10.0.0.118
+graylog1	A	10.0.0.117
+prometheus1	A	10.0.0.118
 
 ; Services
 bastion		A	63.141.240.3
 mail		A	63.141.240.5
 ldap		A	10.0.0.109
+opensearch	A	10.0.0.116
 
 ; load balancers
 
