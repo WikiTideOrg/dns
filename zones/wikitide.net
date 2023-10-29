@@ -74,6 +74,7 @@ prometheus1		A	10.0.0.118
 ; Services
 bastion		A	63.141.240.3
 mail		A	63.141.240.5
+ldap		A	10.0.0.109
 
 ; load balancers
 
