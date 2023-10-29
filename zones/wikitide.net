@@ -50,7 +50,7 @@ cp6		AAAA	2402:1f00:8100:400::1d23
 mail1		AAAA	2604:4300:a:24::110
 mw1		AAAA	2604:4300:a:24::101
 mw2		AAAA	2604:4300:a:24::102
-phorge1		AAAA	2604:4300:a:37::107
+phorge1		AAAA	2604:4300:a:24::108
 puppet1		AAAA	2604:4300:a:24::100
 puppet1-private	A	10.0.0.100
 mw1-private	A	10.0.0.101
