@@ -4,6 +4,8 @@ options => {
         tcp_threads = 2,
 	state_dir = /etc/gdnsd/,
 	acme_challenge_dns_ttl = 300,
+	tcp_timeout = 157,
+	tcp_clients_per_thread = 1024,
 }
 
 service_types => {
@@ -88,31 +90,49 @@ plugins => {
 					au => {
 						addrs_v4 => {
 							cp6 => 139.99.236.151
+						},
+						addrs_v6 => {
+							cp6 => 2402:1f00:8100:400::1d23
 						}
 					}
 					ca => {
 						addrs_v4 => {
 							cp2 => 51.79.55.151
+						},
+						addrs_v6 => {
+							cp2 => 2607:5300:205:200::2aa8
 						}
 					}
 					gb => {
 						addrs_v4 => {
 							cp3 => 51.75.170.66
+						},
+						addrs_v6 => {
+							cp3 => 2001:41d0:801:2000::4089
 						}
 					}
 					pl => {
 						addrs_v4 => {
 							cp4 => 146.59.44.171
+						},
+						addrs_v6 => {
+							cp4 => 2001:41d0:601:1100::4062
 						}
 					}
 					sg => {
 						addrs_v4 => {
 							cp5 => 15.235.167.159
+						},
+						addrs_v6 => {
+							cp5 => 2402:1f00:8000:800::1b3d
 						}
 					}
 					us => {
 						addrs_v4 => {
 							cp1 => 63.141.240.6
+						},
+						addrs_v6 => {
+							cp1 => 2604:4300:a:24::113
 						}
 					}
 				}
