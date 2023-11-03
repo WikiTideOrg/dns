@@ -53,6 +53,8 @@ mw2				AAAA	2604:4300:a:24::102
 phorge1				AAAA	2604:4300:a:24::108
 puppet1				AAAA	2604:4300:a:24::100
 matomo1				AAAA	2604:4300:a:24::119
+ns1				A	63.141.240.4
+ns2				A	51.75.170.66
 puppet1-private			A	10.0.0.100
 mw1-private			A	10.0.0.101
 mw2-private			A	10.0.0.102
@@ -65,7 +67,7 @@ phorge1-private			A	10.0.0.108
 ldap1				A	10.0.0.109
 mail1-private			A	10.0.0.110
 mon1				A	10.0.0.111
-ns1				A	10.0.0.112
+ns1-private			A	10.0.0.112
 cp1-private			A	10.0.0.113
 bast1				A	10.0.0.114
 services1			A	10.0.0.115
