@@ -83,12 +83,12 @@ swiftproxy1		A	10.0.0.122
 
 ; Services
 bastion			A	63.141.240.3
-icinga			A	mon1
-ldap			A	ldap1
+icinga			CNAME	mon1
+ldap			CNAME	ldap1
 mail			A	63.141.240.5
-opensearch		A	os1
+opensearch		CNAME	os1
 restbase		CNAME	services1
-swift-lb		A	swiftproxy1
+swift-lb		CNAME	swiftproxy1
 
 ; load balancers
 
