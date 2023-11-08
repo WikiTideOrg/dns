@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN wikitide.com.
 
-@		SOA ns1.wikiforge.net. hostmaster.wikiforge.net. (
+@		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
 		20230609000001	; serial
 		7200		; refresh
 		30M		; retry
@@ -14,22 +14,22 @@ $ORIGIN wikitide.com.
 *		DYNA	geoip!cp
 
 ; Name servers
-@		NS	ns1.wikiforge.net.
-@		NS	ns2.wikiforge.net.
+@		NS	ns1.wikitide.net.
+@		NS	ns2.wikitide.net.
 
-; CAA (issue: letsencrypt.com, iodef: mailto:sre@wikiforge.net)
+; CAA (issue: letsencrypt.com, iodef: mailto:sre@wikitide.net)
 @		TYPE257	\# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
 
 ; Mail exchanges
-@		MX	10	mail.wikitide.com.
+@		MX	10	mail.wikitide.net.
 
 ; Mail policies
-wikitide.com.		TXT	"v=spf1 ip4:208.110.84.237 -all"
+wikitide.com.		TXT	"v=spf1 ip4:63.141.240.5 ip6:2604:4300:a:24::110 -all"
 
 ; Mail autodiscovery
-_imaps._tcp		IN SRV	0 0 143 mail.wikiforge.net.
-_submission._tcp	IN SRV	0 0 587 mail.wikiforge.net.
+_imaps._tcp		IN SRV	0 0 143 mail.wikitide.net.
+_submission._tcp	IN SRV	0 0 587 mail.wikitide.net.
 
 ;; DKIM - Policy: Mail may be signed. Not required.
 mail._domainkey	TXT	"v=DKIM1; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6a1QYBQJP5JwhkhbFyXxfIpaXqw228Jf+vUAKKGIEIIEp61oYAplDAiYrlpCAhoBNmFIzwWnDr8vykFpaoXsouSFhN4trBKFOXFfKKIXlSBxLtR6P0C9dmgmpcjNACOTgK7lhrF0UmA5Om+ncJlU5BID7fE6PUB80iAshURt3DAvV976QCOsQrSmvcQZLX6xZ9YHVv2CtagEbcoPyn39LmAINva9/Cz8xyohMOzqVveMOsNPcxDJ6KYwM8C9emX7yvmG+xxbVGCPR0AGBzNYxbQMw8LMaqr3Kxx8RJfpTEjjtToh6GwY0XwhBvpqZ+cUXDHUfdrKJ2IxZrbDkken2QIDAQAB"

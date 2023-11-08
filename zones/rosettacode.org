@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN rosettacode.org.
 
-@		SOA ns1.wikiforge.net. hostmaster.wikiforge.net. (
+@		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
 		20230807000001	; serial
 		7200		; refresh
 		30M		; retry
@@ -14,8 +14,8 @@ $ORIGIN rosettacode.org.
 www		DYNA	geoip!cp
 
 ; Name servers
-@		NS	ns1.wikiforge.net.
-@		NS	ns2.wikiforge.net.
+@		NS	ns1.wikitide.net.
+@		NS	ns2.wikitide.net.
 
 ; Mail exchangers
 @		MX	1	mx.rosettacode.org.cust.b.hostedemail.com.

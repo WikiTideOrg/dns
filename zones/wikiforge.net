@@ -15,8 +15,8 @@ $ORIGIN wikiforge.net.
 *.internal	DYNA	geoip!cp
 
 ; Name servers
-@		NS	ns1.wikiforge.net.
-@		NS	ns2.wikiforge.net.
+@		NS	ns1.wikitide.net.
+@		NS	ns2.wikitide.net.
 
 ;; A records
 ns1		A	162.222.205.216
@@ -42,7 +42,7 @@ _dmarc		TXT	"v=DMARC1;p=quarantine;pct=100;fo=1"
 ; BIMI - Used for verified emails
 default._bimi	TXT	"v=BIMI1;l=https://static.wikiforge.net/commonswikitide/f/f1/WikiForge_BIMI.svg;a="
 
-; CAA (issue: amazon.com, letsencrypt.com, iodef: mailto:sre@wikiforge.net)
+; CAA (issue: amazon.com, letsencrypt.com, iodef: mailto:sre@wikitide.net)
 @		TYPE257	\# 17 00056973737565616D617A6F6E2E636F6D
 @		TYPE257	\# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574

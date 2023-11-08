@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN wikitide.net.
 
-@		SOA ns1.wikiforge.net. hostmaster.wikiforge.net. (
+@		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
 		20230905000002	; serial
 		7200	; refresh
 		30M		; retry
@@ -14,16 +14,18 @@ $ORIGIN wikitide.net.
 *				DYNA	geoip!cp
 
 ; Name servers
-@				NS	ns1.wikiforge.net.
-@				NS	ns2.wikiforge.net.
+@				NS	ns1.wikitide.net.
+@				NS	ns2.wikitide.net.
 
-; CAA (issue: letsencrypt.com, iodef: mailto:sre@wikiforge.net)
+; CAA (issue: letsencrypt.com, iodef: mailto:sre@wikitide.net)
 @				TYPE257	\# 22 000569737375656C657473656E63727970742E6F7267
 @				TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
 
 ; Mail exchanges
+@		MX	10	mail.wikitide.net.
 
 ; Mail policies
+wikitide.net.		TXT	"v=spf1 ip4:63.141.240.5 ip6:2604:4300:a:24::110 -all"
 
 ; Mail autodiscovery
 
@@ -47,44 +49,46 @@ cp3				AAAA	2001:41d0:801:2000::4089
 cp4				AAAA	2001:41d0:601:1100::4062
 cp5				AAAA	2402:1f00:8000:800::1b3d
 cp6				AAAA	2402:1f00:8100:400::1d23
-mail1				AAAA	2604:4300:a:24::110
+mail1			AAAA	2604:4300:a:24::110
 mw1				AAAA	2604:4300:a:24::101
 mw2				AAAA	2604:4300:a:24::102
-phorge1				AAAA	2604:4300:a:24::108
-puppet1				AAAA	2604:4300:a:24::100
-matomo1				AAAA	2604:4300:a:24::119
+phorge1			AAAA	2604:4300:a:24::108
+puppet1			AAAA	2604:4300:a:24::100
+matomo1			AAAA	2604:4300:a:24::119
 ns1				A	63.141.240.4
 ns2				A	51.75.170.66
-puppet1-private			A	10.0.0.100
-mw1-private			A	10.0.0.101
-mw2-private			A	10.0.0.102
+puppet1-private	A	10.0.0.100
+mw1-private		A	10.0.0.101
+mw2-private		A	10.0.0.102
 db1				A	10.0.0.103
-jobrunner1			A	10.0.0.104
-jobchron1			A	10.0.0.105
-mem1				A	10.0.0.106
-test1				A	10.0.0.107
-phorge1-private			A	10.0.0.108
-ldap1				A	10.0.0.109
-mail1-private			A	10.0.0.110
-mon1				A	10.0.0.111
-ns1-private			A	10.0.0.112
-cp1-private			A	10.0.0.113
-bast1				A	10.0.0.114
-services1			A	10.0.0.115
+jobrunner1		A	10.0.0.104
+jobchron1		A	10.0.0.105
+mem1			A	10.0.0.106
+test1			A	10.0.0.107
+phorge1-private	A	10.0.0.108
+ldap1			A	10.0.0.109
+mail1-private	A	10.0.0.110
+mon1			A	10.0.0.111
+ns1-private		A	10.0.0.112
+cp1-private		A	10.0.0.113
+bast1			A	10.0.0.114
+services1		A	10.0.0.115
 os1				A	10.0.0.116
-graylog1			A	10.0.0.117
-prometheus1			A	10.0.0.118
-matomo1-private			A	10.0.0.119
-swiftac1			A	10.0.0.120
-swiftobject1			A	10.0.0.121
-swiftproxy1			A	10.0.0.122
+graylog1		A	10.0.0.117
+prometheus1		A	10.0.0.118
+matomo1-private	A	10.0.0.119
+swiftac1		A	10.0.0.120
+swiftobject1	A	10.0.0.121
+swiftproxy1		A	10.0.0.122
 
 ; Services
-bastion				A	63.141.240.3
-mail				A	63.141.240.5
-ldap				A	10.0.0.109
-opensearch			A	10.0.0.116
-swift-lb			A	10.0.0.122
+bastion			A	63.141.240.3
+icinga			A	mon1
+ldap			A	ldap1
+mail			A	63.141.240.5
+opensearch		A	os1
+restbase		CNAME	services1
+swift-lb		A	swiftproxy1
 
 ; load balancers
 

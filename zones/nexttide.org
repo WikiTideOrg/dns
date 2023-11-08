@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN nexttide.org.
 
-@		SOA ns1.wikiforge.net. hostmaster.wikiforge.net. (
+@		SOA ns1.wikitide.net. hostmaster.wikitide.net. (
 		20231016000001	; serial
 		7200		; refresh
 		30M		; retry
@@ -14,10 +14,10 @@ $ORIGIN nexttide.org.
 *		DYNA	geoip!cp
 
 ; Name servers
-@		NS	ns1.wikiforge.net.
-@		NS	ns2.wikiforge.net.
+@		NS	ns1.wikitide.net.
+@		NS	ns2.wikitide.net.
 
-; CAA (issue: letsencrypt.com, iodef: mailto:sre@wikiforge.net)
+; CAA (issue: letsencrypt.com, iodef: mailto:sre@wikitide.net)
 @		TYPE257	\# 22 000569737375656C657473656E63727970742E6F7267
 @		TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
 
