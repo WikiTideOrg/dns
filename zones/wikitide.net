@@ -80,6 +80,7 @@ matomo1-private	A	10.0.0.119
 swiftac1	A	10.0.0.120
 swiftobject1	A	10.0.0.121
 swiftproxy1	A	10.0.0.122
+bots1		A	10.0.0.123
 
 ; Services
 bastion		A	63.141.240.3
