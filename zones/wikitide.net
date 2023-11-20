@@ -97,6 +97,7 @@ swift-lb	CNAME	swiftproxy1
 ; Miscellaneous
 status				CNAME	wikitide.hund.io.
 _acme-challenge.wikitide.net.	TXT     "CpFa9sSweQCwDI1bA32J1zos4Ep0JoB0A0NbKOiIq_Q"
+ownercheck.cp4.wikitide.net.	TXT	"f1db755f"
 ownercheck.cp5.wikitide.net.	TXT	"71a2bd9d"
 ownercheck.cp6.wikitide.net.	TXT	"2895777a"
 
