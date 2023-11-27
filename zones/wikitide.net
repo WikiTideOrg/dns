@@ -85,50 +85,52 @@ swiftproxy1	A	10.0.0.122
 bots1		A	10.0.0.123
 
 ; Cloud2
-mw21-private	A	10.0.0.201
-mw22-private	A	10.0.0.202
-db21		A	10.0.0.203
-jobrunner21	A	10.0.0.204
-jobchron21	A	10.0.0.205
-mem21		A	10.0.0.206
-test21		A	10.0.0.207
-phorge21-private	A	10.0.0.208
-ldap21		A	10.0.0.209
-mail21-private	A	10.0.0.210
-mon21		A	10.0.0.211
-ns21-private	A	10.0.0.212
-cp21-private	A	10.0.0.213
-bast21		A	10.0.0.214
-services21	A	10.0.0.215
-os21		A	10.0.0.216
-graylog21	A	10.0.0.217
-prometheus21	A	10.0.0.218
-matomo21-private	A	10.0.0.219
-bots21		A	10.0.0.220
+mw21-private	A	10.0.2.1
+mw22-private	A	10.0.2.2
+db21		A	10.0.2.3
+jobrunner21	A	10.0.2.4
+jobchron21	A	10.0.2.5
+mem21		A	10.0.2.6
+test21		A	10.0.2.7
+phorge21-private	A	10.0.2.8
+ldap21		A	10.0.2.9
+mail21-private	A	10.0.2.10
+mon21		A	10.0.2.11
+ns21-private	A	10.0.2.12
+cp21-private	A	10.0.2.13
+bast21		A	10.0.2.14
+services21	A	10.0.2.15
+os21		A	10.0.2.16
+graylog21	A	10.0.2.17
+prometheus21	A	10.0.2.18
+matomo21-private	A	10.0.2.19
+bots21		A	10.0.2.20
 
 ; Cloud3
-bast31		A	10.0.0.300
-cp31		A	10.0.0.301
-db31		A	10.0.0.302
-mem31		A	10.0.0.303
-mw31		A	10.0.0.304
-mw32		A	10.0.0.305
-jobrunner31	A	10.0.0.306
-os31		A	10.0.0.307
-swiftac31	A	10.0.0.308
-swiftobject31	A	10.0.0.309
-swiftproxy31	A	10.0.0.310
-storage31	A	10.0.0.311
+cloud3-private	A	10.0.3.0
+bast31		A	10.0.3.1
+cp31		A	10.0.3.2
+db31		A	10.0.3.3
+mem31		A	10.0.3.4
+mw31		A	10.0.3.5
+mw32		A	10.0.3.6
+jobrunner31	A	10.0.3.7
+os31		A	10.0.3.8
+swiftac31	A	10.0.3.9
+swiftobject31	A	10.0.3.10
+swiftproxy31	A	10.0.3.11
+storage31	A	10.0.3.12
 
 ; Cloud4
-bast41		A	10.0.0.400
-cp41		A	10.0.0.401
-db41		A	10.0.0.402
-mem31		A	10.0.0.403
-mw41		A	10.0.0.404
-mw42		A	10.0.0.405
-jobrunner41	A	10.0.0.406
-storage41	A	10.0.0.407
+cloud4-private	A	10.0.4.0
+bast41		A	10.0.4.1
+cp41		A	10.0.4.2
+db41		A	10.0.4.3
+mem31		A	10.0.4.4
+mw41		A	10.0.4.5
+mw42		A	10.0.4.6
+jobrunner41	A	10.0.4.7
+storage41	A	10.0.4.8
 
 ; Services
 bastion		A	63.141.240.3
