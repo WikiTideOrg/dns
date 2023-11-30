@@ -58,7 +58,9 @@ phorge1		AAAA	2604:4300:a:24::108
 puppet1		A	10.0.0.100
 matomo1		AAAA	2604:4300:a:24::119
 ns1		A	63.141.240.4
+		AAAA	2604:4300:a:24:74af:35ff:fe0c:d0a7
 ns2		A	51.75.170.66
+		AAAA	2001:41d0:801:2000::4089
 puppet1-private	A	10.0.0.100
 mw1-private	A	10.0.0.101
 mw2-private	A	10.0.0.102
@@ -147,7 +149,7 @@ swift-lb	CNAME	swiftproxy1
 ; Miscellaneous
 status				CNAME	wikitide.hund.io.
 _acme-challenge.wikitide.net.	TXT     "CpFa9sSweQCwDI1bA32J1zos4Ep0JoB0A0NbKOiIq_Q"
-ownercheck.cp3.wikitide.net.	TXT "71fe33ab"
+ownercheck.cp3.wikitide.net.	TXT	"71fe33ab"
 ownercheck.cp4.wikitide.net.	TXT	"f1db755f"
 ownercheck.cp5.wikitide.net.	TXT	"71a2bd9d"
 ownercheck.cp6.wikitide.net.	TXT	"2895777a"
