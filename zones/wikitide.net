@@ -96,15 +96,16 @@ jobchron21	A	10.0.2.7
 jobrunner21	A	10.0.2.8
 test21		A	10.0.2.9
 phorge21-private	A	10.0.2.10
-ldap21		A	10.0.2.11
-mail21-private	A	10.0.2.12
-mon21		A	10.0.2.13
-os21		A	10.0.2.14
-graylog21	A	10.0.2.15
-prometheus21	A	10.0.2.16
-services21	A	10.0.2.17
-matomo21-private	A	10.0.2.18
-bots21		A	10.0.2.19
+puppet21-private	A	10.0.2.11
+ldap21		A	10.0.2.12
+mail21-private	A	10.0.2.13
+mon21		A	10.0.2.14
+os21		A	10.0.2.15
+graylog21	A	10.0.2.16
+prometheus21	A	10.0.2.17
+services21	A	10.0.2.18
+matomo21-private	A	10.0.2.19
+bots21		A	10.0.2.20
 router21	A	10.0.2.49
 
 ; Cloud3
