@@ -98,7 +98,7 @@ jobchron21		A	10.0.2.7
 jobrunner21		A	10.0.2.8
 test21			A	10.0.2.9
 phorge21-private	A	10.0.2.10
-puppet21		A	10.0.2.11
+puppet21		A	23.95.103.19
 puppet21-private	A	10.0.2.11
 ldap21			A	10.0.2.12
 mail21-private		A	10.0.2.13
