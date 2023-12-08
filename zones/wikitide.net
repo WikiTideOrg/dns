@@ -117,7 +117,8 @@ services21			A	10.0.2.18
 matomo21			A	23.95.103.23
 matomo21-private	A	10.0.2.19
 bots21				A	10.0.2.20
-swiftproxy21		A	10.0.2.21
+swiftproxy21			AAAA	 2604:4300:a:24::122
+swiftproxy21-private		A	10.0.2.21
 router21			A	10.0.2.49
 
 ; Cloud3
