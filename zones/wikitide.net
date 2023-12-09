@@ -109,7 +109,6 @@ puppet21-private	A	10.0.2.11
 ldap21				A	10.0.2.12
 mail21				A	23.95.103.24
 mail21-private		A	10.0.2.13
-mon21				A	23.95.103.25
 mon21				A	10.0.2.14
 os21				A	10.0.2.15
 graylog21			A	10.0.2.16
@@ -149,7 +148,7 @@ router41	A	10.0.4.49
 
 ; Services
 bastion		A	63.141.240.3
-icinga		CNAME	mon1
+icinga		CNAME	mon21
 ldap		CNAME	ldap1
 logging 	CNAME	graylog1
 mail		A	63.141.240.5
