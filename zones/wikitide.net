@@ -155,6 +155,7 @@ mail			A	63.141.240.5
 opensearch		CNAME	os21
 restbase		CNAME	services21
 swift-lb		CNAME	swiftproxy1
+swift-lb2		CNAME	swiftproxy21
 
 ; load balancers
 
