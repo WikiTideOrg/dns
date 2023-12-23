@@ -151,7 +151,7 @@ bastion			A	23.95.103.19
 bast1-public		A	63.141.240.3
 icinga			CNAME	mon1
 ldap			CNAME	ldap1
-logging 		CNAME	graylog21
+logging 		CNAME	graylog1
 mail			A	63.141.240.5
 opensearch		CNAME	os1
 restbase		CNAME	services1
