@@ -148,6 +148,7 @@ router41		A	10.0.4.49
 
 ; Services
 bastion			A	23.95.103.19
+bast1-public		A	63.141.240.3
 icinga			CNAME	mon21
 ldap			CNAME	ldap21
 logging 		CNAME	graylog21
