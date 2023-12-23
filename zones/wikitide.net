@@ -149,12 +149,12 @@ router41		A	10.0.4.49
 ; Services
 bastion			A	23.95.103.19
 bast1-public		A	63.141.240.3
-icinga			CNAME	mon21
-ldap			CNAME	ldap21
+icinga			CNAME	mon1
+ldap			CNAME	ldap1
 logging 		CNAME	graylog21
 mail			A	63.141.240.5
-opensearch		CNAME	os21
-restbase		CNAME	services21
+opensearch		CNAME	os1
+restbase		CNAME	services1
 swift-lb		CNAME	swiftproxy1
 swift-lb2		CNAME	swiftproxy21
 
