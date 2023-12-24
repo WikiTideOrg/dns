@@ -28,11 +28,6 @@ plugins => {
 		multi = false
 		service_types = up
 		up_thresh = 0.5
-		thumb => {
-			addrs_v4 => {
-				cp1 = [ 63.141.240.6, 1 ]
-			}
-		}
 		services => {
 			addrs_v4 => {
 				cp1 = [ 63.141.240.6, 1 ]
@@ -130,9 +125,6 @@ plugins => {
 					us => {
 						addrs_v4 => {
 							cp1 => 63.141.240.6
-						},
-						addrs_v6 => {
-							cp1 => 2604:4300:a:24::113
 						}
 					}
 				}
