@@ -22,10 +22,12 @@ $ORIGIN wikitide.com.
 @		TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
 
 ; Mail exchanges
-@		MX	10	mail.wikitide.net.
+; @		MX	10	mail.wikitide.net.
+@		MX	1	smtp.google.com.
 
 ; Mail policies
-wikitide.com.		TXT	"v=spf1 ip4:63.141.240.5 ip6:2604:4300:a:24::110 -all"
+; wikitide.com.		TXT	"v=spf1 ip4:63.141.240.5 ip6:2604:4300:a:24::110 -all"
+wikitide.com.		TXT	"v=spf1 include:_spf.google.com ~all"
 
 ; Mail autodiscovery
 _imaps._tcp		IN SRV	0 0 143 mail.wikitide.net.
@@ -49,7 +51,7 @@ default._bimi	TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTi
 ; Miscellaneous
 status		CNAME	wikitide.hund.io.
 
-wikitide.com. 						TXT	"google-site-verification=mZqFWivIMI2uVbrLnmGJ96EHQeNjdypjcgWsoK1OgeQ"
+wikitide.com. 						TXT	"google-site-verification=pEDqFUibcZHCnuTh60erG86iP_p-UmJhVZ3pjcO4ahg"
 _acme-challenge.wikitide.com.				TXT     "e216bMRC1RyZJBc0q6kLgzW82H9zhHlr0YhHa63i9f8"
 _4892a2a9ab88b98b856acaa9af5215ae.static.wikitide.com.	CNAME	 _201b0baed920ec5e85ea9d4c9d96bd65.ycvykntjsl.acm-validations.aws.
 
