@@ -47,7 +47,7 @@ default._bimi	TXT	"v=BIMI1;l=https://static.wikitide.net/commonswiki/e/ea/WikiTi
 ; load balancers
 
 ; Miscellaneous
-wikitide.org.						TXT	"google-site-verification=2H9ugfXLc7WqxAJiLUGewd4ISrZEFG76NQQN1BJNCe4"
+wikitide.org.						TXT	"google-site-verification=-lmNHv-Q2Cx9n12Jd2Orr4Ns3_Vobd8Ys-ArC91taXA"
 wikitide.org.						TXT	"libera-verify-8870"
 _acme-challenge.wikitide.org.				TXT     "L_oVz8AHgy9c_IeG-xt1m7eS4tWxZ5resQak_AGH0_Q"
 _acme-challenge.wikitide.org.				TXT     "0aB7Mx8CPiY4j87ys8dSWHuVt8wZAILUs-ISBwnNUOg"
