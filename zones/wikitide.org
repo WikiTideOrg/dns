@@ -26,7 +26,8 @@ $ORIGIN wikitide.org.
 @		MX	1	smtp.google.com.
 
 ; Mail policies
-wikitide.org.		TXT	"v=spf1 ip4:63.141.240.5 ip6:2604:4300:a:24::110 -all"
+; wikitide.org.		TXT	"v=spf1 ip4:63.141.240.5 ip6:2604:4300:a:24::110 -all"
+wikitide.org.		TXT	"v=spf1 include:_spf.google.com ~all"
 
 ; Mail autodiscovery
 _imaps._tcp		IN SRV	0 0 143 mail.wikitide.net.
