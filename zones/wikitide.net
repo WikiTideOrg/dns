@@ -22,18 +22,16 @@ $ORIGIN wikitide.net.
 @				TYPE257	\# 31 0005696F6465666D61696C746F3A7372654077696B69666F7267652E6E6574
 
 ; Mail exchanges
-; @		MX	10	mail.wikitide.net.
 @		MX	1	smtp.google.com.
 
 ; Mail policies
-; wikitide.net.	TXT	"v=spf1 ip4:63.141.240.5 ip6:2604:4300:a:24::110 -all"
 wikitide.net.	TXT	"v=spf1 include:_spf.google.com ~all"
 
 ; Mail autodiscovery
 
 ;; DKIM - Policy: Mail may be signed. Not required.
 
-;; DMARC - Policy: Reject - unauthorised mail will not send, remote SMTPs will just drop the mail.
+;; DMARC - Policy: Reject - unauthorized mail will not send, remote SMTPs will just drop the mail.
 
 ; BIMI - Used for verified emails
 
